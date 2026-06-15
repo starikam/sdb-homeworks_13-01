@@ -37,3 +37,33 @@
 ## Ответы
 
 ### Задание 1
+
+Metasploitable 2 - намеренно уязвимая виртуальная машина на Ubuntu, у неё ряд открытых портов (результат nmap -sV):
+| Порт | Протокол | Служба / Версия |
+  |------|----------|-----------------|
+  | 21 | TCP | vsftpd 2.3.4 |
+  | 22 | TCP | OpenSSH 4.7p1 |
+  | 23 | TCP | Telnet |
+  | 25 | TCP | Postfix SMTP |
+  | 53 | TCP/UDP | ISC BIND 9.4.2 |
+  | 80 | TCP | Apache httpd 2.2.8 |
+  | 111 | TCP | rpcbind |
+  | 139 | TCP | Samba (NetBIOS) |
+  | 445 | TCP | Samba (microsoft-ds) |
+  | 512 | TCP | exec |
+  | 513 | TCP | login |
+  | 514 | TCP | shell (rsh) |
+  | 1099 | TCP | Java RMI |
+  | 1524 | TCP | Ingreslock (backdoor shell) |
+  | 2049 | TCP | NFS |
+  | 2121 | TCP | ProFTPD 1.3.1 |
+  | 3306 | TCP | MySQL 5.0.51a |
+  | 3632 | TCP | distccd |
+  | 5432 | TCP | PostgreSQL 8.3 |
+  | 5900 | TCP | VNC (protocol 3.3) |
+  | 6000 | TCP | X11 |
+  | 6667 | TCP | UnrealIRCd 3.2.8.1 |
+  | 6697 | TCP | UnrealIRCd (SSL) |
+  | 8009 | TCP | Apache AJP13 |
+  | 8180 | TCP | Apache Tomcat |
+
